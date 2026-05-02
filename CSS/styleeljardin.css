@@ -1,0 +1,221 @@
+/* Importante para el inicio y final */
+body {
+  margin: 10;
+  background-color:rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  
+}
+.header {
+  display: flex;          
+  align-items: center;    
+  padding: 25px;
+  gap: 20px;  
+  border-style: solid; 
+  border-radius: 25px;  
+}
+.fotodeinicio {
+  width: 20%;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 10px;
+}
+.tituloinicial h1 {
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+}
+.frases {
+  margin-top: 10px;
+  color: #434343;
+  font-size: 18px;
+  font-family: cursive;
+  text-align: center;
+}
+.tablainicio{
+    width: 100%;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(0, 0, 0);
+}
+td{
+    text-align: center;
+    padding: 20px;
+    font-size: 100%;
+}
+.ainicio{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+/* Hasta ACA */
+.tablareproductor{
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 20px;
+}
+.imgreproductor{
+    border-style: groove;
+    border-color: black;
+    border-radius: 25px;
+}
+
+/* APARTE PARA FRASES */
+.contenedor-jardin {
+    position: relative;
+    width: 100%;
+    height: 1800px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.frase {
+    position: absolute;
+    color: #555;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+
+
+.entradadefrase{
+    border-radius: 25px;
+    width: 90%;
+    height: 50px;
+}
+
+/* ── BLOQUE 1: valor de más ── */
+.pos-1  { top: 1%;  left: 5%;  transform: rotate(-5deg); font-size: 1.1rem; }
+.pos-2  { top: 2%;  left: 30%; transform: rotate(3deg);  opacity: 0.8; }
+.pos-3  { top: 3%;  left: 58%; transform: rotate(-7deg); font-size: 0.9rem; }
+.pos-4  { top: 4%;  left: 80%; transform: rotate(4deg);  font-weight: bold; }
+.pos-5  { top: 6%;  left: 15%; transform: rotate(8deg);  opacity: 0.7; }
+.pos-6  { top: 7%;  left: 45%; transform: rotate(-3deg); font-size: 1.2rem; }
+.pos-7  { top: 9%;  left: 70%; transform: rotate(6deg);  opacity: 0.6; }
+
+/* ── BLOQUE 2: Nube Gris ── */
+.pos-8  { top: 11%; left: 8%;  transform: rotate(-9deg); font-size: 1rem; }
+.pos-9  { top: 12%; left: 38%; transform: rotate(2deg);  opacity: 0.85; }
+.pos-10 { top: 13%; left: 65%; transform: rotate(-4deg); font-weight: bold; }
+.pos-11 { top: 15%; left: 20%; transform: rotate(7deg);  font-size: 0.85rem; }
+.pos-12 { top: 16%; left: 52%; transform: rotate(-6deg); opacity: 0.75; }
+.pos-13 { top: 18%; left: 78%; transform: rotate(5deg);  font-size: 1.1rem; }
+
+/* ── BLOQUE 3: culpa ── */
+.pos-14 { top: 20%; left: 3%;  transform: rotate(-2deg); font-size: 1rem; }
+.pos-15 { top: 21%; left: 28%; transform: rotate(9deg);  opacity: 0.65; }
+.pos-16 { top: 22%; left: 55%; transform: rotate(-8deg); font-weight: bold; }
+.pos-17 { top: 24%; left: 82%; transform: rotate(3deg);  font-size: 0.9rem; }
+.pos-18 { top: 26%; left: 12%; transform: rotate(-5deg); opacity: 0.8; }
+.pos-19 { top: 27%; left: 43%; transform: rotate(6deg);  font-size: 1.2rem; }
+.pos-20 { top: 29%; left: 72%; transform: rotate(-1deg); opacity: 0.7; }
+
+/* ── BLOQUE 4: violento ── */
+.pos-21 { top: 31%; left: 6%;  transform: rotate(4deg);  font-size: 1rem; }
+.pos-22 { top: 32%; left: 34%; transform: rotate(-7deg); opacity: 0.75; }
+.pos-23 { top: 33%; left: 60%; transform: rotate(8deg);  font-weight: bold; }
+.pos-24 { top: 35%; left: 85%; transform: rotate(-3deg); font-size: 0.85rem; }
+.pos-25 { top: 37%; left: 18%; transform: rotate(5deg);  opacity: 0.9; }
+.pos-26 { top: 38%; left: 50%; transform: rotate(-9deg); font-size: 1.1rem; }
+
+/* ── BLOQUE 5: vuelve corazón ── */
+.pos-27 { top: 40%; left: 2%;  transform: rotate(3deg);  opacity: 0.8; }
+.pos-28 { top: 41%; left: 25%; transform: rotate(-6deg); font-size: 0.95rem; }
+.pos-29 { top: 42%; left: 53%; transform: rotate(7deg);  font-weight: bold; }
+.pos-30 { top: 44%; left: 77%; transform: rotate(-4deg); font-size: 1.1rem; }
+.pos-31 { top: 46%; left: 10%; transform: rotate(2deg);  opacity: 0.65; }
+.pos-32 { top: 47%; left: 40%; transform: rotate(-8deg); font-size: 1rem; }
+.pos-33 { top: 49%; left: 68%; transform: rotate(6deg);  opacity: 0.7; }
+
+/* ── BLOQUE 6: C. ── */
+.pos-34 { top: 51%; left: 4%;  transform: rotate(-5deg); font-weight: bold; }
+.pos-35 { top: 52%; left: 32%; transform: rotate(4deg);  font-size: 0.9rem; }
+.pos-36 { top: 53%; left: 62%; transform: rotate(-3deg); opacity: 0.85; }
+.pos-37 { top: 55%; left: 83%; transform: rotate(9deg);  font-size: 1rem; }
+.pos-38 { top: 57%; left: 14%; transform: rotate(-7deg); opacity: 0.7; }
+.pos-39 { top: 58%; left: 47%; transform: rotate(1deg);  font-size: 1.2rem; }
+
+/* ── BLOQUE 7: arcoíris ── */
+.pos-40 { top: 60%; left: 7%;  transform: rotate(6deg);  opacity: 0.75; }
+.pos-41 { top: 61%; left: 36%; transform: rotate(-4deg); font-weight: bold; }
+.pos-42 { top: 62%; left: 64%; transform: rotate(8deg);  font-size: 0.85rem; }
+.pos-43 { top: 64%; left: 20%; transform: rotate(-2deg); opacity: 0.9; }
+.pos-44 { top: 65%; left: 54%; transform: rotate(5deg);  font-size: 1rem; }
+.pos-45 { top: 67%; left: 80%; transform: rotate(-6deg); opacity: 0.65; }
+
+/* ── BLOQUE 8: No Hay Problema ── */
+.pos-46 { top: 69%; left: 1%;  transform: rotate(3deg);  font-size: 1.1rem; }
+.pos-47 { top: 70%; left: 29%; transform: rotate(-9deg); opacity: 0.8; }
+.pos-48 { top: 71%; left: 57%; transform: rotate(4deg);  font-weight: bold; }
+.pos-49 { top: 73%; left: 75%; transform: rotate(-5deg); font-size: 0.9rem; }
+.pos-50 { top: 75%; left: 16%; transform: rotate(7deg);  opacity: 0.7; }
+.pos-51 { top: 76%; left: 44%; transform: rotate(-1deg); font-size: 1rem; }
+
+/* ── BLOQUE 9: nadie va a pensar en ti mejor que yo ── */
+.pos-52 { top: 78%; left: 5%;  transform: rotate(-8deg); opacity: 0.85; }
+.pos-53 { top: 79%; left: 33%; transform: rotate(6deg);  font-weight: bold; }
+.pos-54 { top: 80%; left: 61%; transform: rotate(-3deg); font-size: 0.95rem; }
+.pos-55 { top: 82%; left: 84%; transform: rotate(5deg);  opacity: 0.6; }
+.pos-56 { top: 84%; left: 22%; transform: rotate(-7deg); font-size: 1.1rem; }
+.pos-57 { top: 85%; left: 49%; transform: rotate(2deg);  opacity: 0.75; }
+
+/* ── BLOQUE 10: loop / tiempo / sueños ── */
+.pos-58 { top: 87%; left: 9%;  transform: rotate(9deg);  font-size: 1rem; }
+.pos-59 { top: 88%; left: 37%; transform: rotate(-4deg); font-weight: bold; }
+.pos-60 { top: 89%; left: 66%; transform: rotate(3deg);  opacity: 0.8; }
+.pos-61 { top: 91%; left: 78%; transform: rotate(-6deg); font-size: 0.85rem; }
+.pos-62 { top: 92%; left: 11%; transform: rotate(5deg);  opacity: 0.65; }
+.pos-63 { top: 93%; left: 42%; transform: rotate(-9deg); font-size: 1.2rem; }
+.pos-64 { top: 94%; left: 70%; transform: rotate(4deg);  opacity: 0.9; }
+.pos-65 { top: 95%; left: 2%;  transform: rotate(-2deg); font-weight: bold; }
+.pos-66 { top: 96%; left: 27%; transform: rotate(7deg);  font-size: 1rem; }
+.pos-67 { top: 97%; left: 55%; transform: rotate(-5deg); opacity: 0.7; }
+.pos-68 { top: 98%; left: 82%; transform: rotate(3deg);  font-size: 0.9rem; }
+
+/* ── BLOQUE EXTRA: frases sueltas flotantes ── */
+.pos-69 { top: 10%; left: 88%; transform: rotate(-10deg); font-size: 1rem; opacity: 0.5; }
+.pos-70 { top: 23%; left: 92%; transform: rotate(6deg);   font-size: 0.8rem; opacity: 0.55; }
+.pos-71 { top: 36%; left: 90%; transform: rotate(-3deg);  font-weight: bold; opacity: 0.6; }
+.pos-72 { top: 48%; left: 87%; transform: rotate(8deg);   font-size: 1.1rem; opacity: 0.5; }
+.pos-73 { top: 60%; left: 91%; transform: rotate(-7deg);  font-size: 0.85rem; opacity: 0.65; }
+.pos-74 { top: 72%; left: 89%; transform: rotate(4deg);   font-size: 1rem; opacity: 0.55; }
+.pos-75 { top: 86%; left: 93%; transform: rotate(-5deg);  font-size: 0.9rem; opacity: 0.6; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Clave para el pie de pagina */
+.footer {
+  background-color: #1b1b1b;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 14px;
+  border-style:solid;
+  border-radius: 25px;
+}
+/* Hasta ACA */
+/* Clave para el pie de pagina */
+.footer {
+  background-color: #ebebeb7a;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 14px;
+  border-style:solid;
+  border-radius: 25px;
+}
+/* Hasta ACA */

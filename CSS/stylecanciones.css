@@ -1,0 +1,74 @@
+.footer {
+  background-color: #1b1b1b;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 14px;
+  border-style:solid;
+  border-radius: 25px;
+}
+body {
+  margin: 20px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  display: flex;   
+  padding: 25px;
+  gap: 20px;  
+  border-style: solid; 
+  border-radius: 25px;  
+}
+.fotodeinicio {
+  width: 20%;
+  border-radius: 10px;  
+}
+.tituloinicial h1 {
+  margin: 0;
+  font-size: 40px;
+  text-align: center;
+}
+.tituloinicial br{
+    color: #ccc;
+    text-align: center;
+}
+.frase {
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 18px;
+  font-family: cursive;
+  text-align: center;
+}
+.tablainicio{
+    width: 95%;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(255, 255, 255);
+}
+td{
+    text-align: center;
+    padding: 20px;
+}
+.ainicio{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;}
+.imgcanciones{
+    width: 125px;
+    padding: 0px;
+}
+table{
+    border-style: solid;
+    border-color: aliceblue;
+    margin: 45px;
+    border-radius: 25px;
+    width: 90%;
+}
+.acanciones{
+    color: aliceblue;
+    text-align: center;
+    font-size: 23px;}
+.tdnumero{
+    font-size: 23px;
+}
